@@ -4,11 +4,38 @@
 <div class="card">
   <h2 style="margin-top:0">{{ topic.title }}</h2>
 
-  <h3>Summary</h3>
+  <h3>Quick summary</h3>
   <p>{{ topic.summary }}</p>
+
+  {% if topic.what_happened %}
+    <h3>What happened</h3>
+    <ul>
+      {% for item in topic.what_happened %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 
   <h3>Why it matters</h3>
   <p>{{ topic.why_it_matters }}</p>
+
+  {% if topic.key_terms %}
+    <h3>Key terms</h3>
+    <ul>
+      {% for t in topic.key_terms %}
+        <li><strong>{{ t.term }}:</strong> {{ t.definition }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if topic.big_questions %}
+    <h3>Big questions to watch</h3>
+    <ul>
+      {% for q in topic.big_questions %}
+        <li>{{ q }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
 
 <div class="card">
