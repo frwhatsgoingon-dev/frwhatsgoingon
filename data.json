@@ -1,64 +1,76 @@
 {
-  "slug": "us-israel-iran-war-day-five",
-  "title": "U.S.–Israel war with Iran enters fifth day",
-  "summary": "The conflict between the United States, Israel, and Iran has escalated rapidly. A U.S. submarine sank an Iranian warship near Sri Lanka while Iran launched missiles and drones toward regional targets. Fighting is spreading across the Middle East, raising fears of a wider regional war.",
-  "why_it_matters": "The conflict could disrupt global energy supplies, shipping routes in the Persian Gulf, and international security. It also raises concerns about civilian casualties and the possibility of more countries getting involved.",
-  "sources": [
+  "topics": [
     {
-      "title": "Reuters: U.S. sinks Iranian warship as conflict widens",
-      "url": "https://www.reuters.com/world/middle-east/us-assault-iran-ahead-schedule-says-us-middle-east-commander-2026-03-04/"
+      "slug": "us-israel-iran-war-day-five",
+      "title": "U.S.–Israel war with Iran enters fifth day",
+      "summary": "The conflict between the United States, Israel, and Iran has escalated rapidly with strikes, missile and drone launches, and warnings across the region. Leaders are facing pressure to prevent a wider regional war while protecting civilians.",
+      "why_it_matters": "A larger conflict could disrupt energy supplies, raise global prices, increase risks to civilians, and pull more countries into the fighting.",
+      "sources": [
+        {
+          "title": "Search: US Israel Iran war March 2026",
+          "url": "https://www.google.com/search?q=US+Israel+Iran+war+March+2026"
+        }
+      ]
     },
     {
-      "title": "Guardian: Israel launches new wave of strikes as war escalates",
-      "url": "https://www.theguardian.com/world/2026/mar/04/us-israel-iran-war-update-latest-news-day-five"
-    }
-  ]
-},
-{
-  "slug": "global-response-iran-war",
-  "title": "World leaders split on how to respond to the Iran war",
-  "summary": "Countries across Europe and the Middle East are divided on how to respond to the conflict between Iran, Israel, and the United States. Some governments support Israel’s efforts to weaken Iran’s military capabilities, while others warn the strikes could violate international law or risk a wider war.",
-  "why_it_matters": "International support or opposition could determine whether the conflict escalates further or moves toward diplomacy.",
-  "sources": [
+      "slug": "gulf-countries-and-escalation-risk",
+      "title": "Gulf countries on edge as the conflict spreads",
+      "summary": "Gulf countries are trying to protect their security and economies while avoiding being pulled into the conflict. Some host U.S. forces, many depend on stable shipping routes, and governments are balancing alliances with regional stability.",
+      "why_it_matters": "The Gulf is central to energy and global trade. Instability can affect fuel prices, supply chains, and regional security.",
+      "sources": [
+        {
+          "title": "Search: Gulf countries response Iran Israel US conflict",
+          "url": "https://www.google.com/search?q=Gulf+countries+response+Iran+Israel+US+conflict"
+        }
+      ]
+    },
     {
-      "title": "Al Jazeera: Europe divided on response to U.S.–Israel strikes",
-      "url": "https://www.aljazeera.com/news/2026/3/4/amid-middle-east-crisis-europe-fumbles-towards-mutual-defence"
-    }
-  ]
-},
-{
-  "slug": "congress-war-powers-iran",
-  "title": "Congress debates whether Trump can continue the Iran war",
-  "summary": "Members of Congress are debating whether President Trump has the authority to continue military strikes against Iran without formal approval from lawmakers. Some Republicans support the operation as necessary for national security, while many Democrats argue Congress must authorize any extended war.",
-  "why_it_matters": "The decision could determine how long the United States remains involved in the conflict and how much power the president has to launch military action.",
-  "sources": [
+      "slug": "congress-war-powers-iran-debate",
+      "title": "Congress debates war powers and U.S. involvement",
+      "summary": "Lawmakers are debating whether the president can continue major military action without explicit congressional authorization. Supporters argue the U.S. must deter threats; critics warn about escalation and insist Congress should set limits.",
+      "why_it_matters": "This affects how long the U.S. stays involved, what goals are set, and how the Constitution’s war powers are applied.",
+      "sources": [
+        {
+          "title": "Search: Congress war powers Iran March 2026",
+          "url": "https://www.google.com/search?q=Congress+war+powers+Iran+March+2026"
+        }
+      ]
+    },
     {
-      "title": "Reuters: Congress considers war powers resolutions on Iran",
-      "url": "https://www.reuters.com/world/us/trumps-national-security-team-comes-convince-congress-back-iran-war-2026-03-03/"
-    }
-  ]
-},
-{
-  "slug": "trump-iran-war-politics",
-  "title": "Iran conflict reshapes U.S. politics and Trump’s support",
-  "summary": "The war with Iran is becoming a major political issue in the United States. Supporters say the strikes show strength against Iran’s military and nuclear ambitions, while critics worry the conflict could spiral into a long and costly war.",
-  "why_it_matters": "Public opinion about the war could affect elections, U.S. foreign policy, and how Congress responds to future military actions.",
-  "sources": [
+      "slug": "trump-news-foreign-policy-and-politics",
+      "title": "Trump news: foreign policy decisions and political fallout",
+      "summary": "Trump’s handling of the conflict is shaping debate in U.S. politics. Supporters say the approach shows strength; critics question strategy, costs, and long-term risks. The issue is becoming a major political dividing line.",
+      "why_it_matters": "Foreign policy decisions can influence elections, public opinion, and how Congress responds to future crises.",
+      "sources": [
+        {
+          "title": "Search: Trump Iran war politics March 2026",
+          "url": "https://www.google.com/search?q=Trump+Iran+war+politics+March+2026"
+        }
+      ]
+    },
     {
-      "title": "Reuters: Iran crisis tests Trump’s political support",
-      "url": "https://wtvbam.com/2026/03/04/iran-crisis-tests-trump-standing-with-young-men-who-helped-power-2024-win/"
-    }
-  ]
-},
-{
-  "slug": "us-midterm-primaries-2026",
-  "title": "First 2026 midterm primaries reveal political trends",
-  "summary": "The first primaries of the 2026 U.S. midterm election season are beginning. Early results are giving clues about which issues are motivating voters and which candidates may shape the balance of power in Congress.",
-  "why_it_matters": "The midterm elections will determine whether Republicans or Democrats control the House and Senate, affecting future laws, budgets, and investigations.",
-  "sources": [
+      "slug": "republicans-democrats-midterms-primaries-2026",
+      "title": "Republicans vs Democrats: early 2026 primaries and what they signal",
+      "summary": "Early primaries can reveal what party voters prioritize and which messages are gaining traction. Candidates often appeal to core voters first, then shift toward swing voters closer to the general election.",
+      "why_it_matters": "The 2026 midterms will decide control of Congress, shaping budgets, investigations, and domestic and foreign policy.",
+      "sources": [
+        {
+          "title": "Search: 2026 midterm primaries takeaways",
+          "url": "https://www.google.com/search?q=2026+midterm+primaries+takeaways"
+        }
+      ]
+    },
     {
-      "title": "Reuters: Key takeaways from first 2026 midterm primaries",
-      "url": "https://www.reuters.com/world/us/takeaways-first-primaries-2026-us-midterm-elections-2026-03-04/"
+      "slug": "welcome",
+      "title": "Welcome — What is frwhatsgoingon?",
+      "summary": "frwhatsgoingon is a student-friendly site that explains current events in simple language and links to real sources.",
+      "why_it_matters": "You can use it to understand breaking news and get sources for schoolwork.",
+      "sources": [
+        {
+          "title": "Example source (replace later)",
+          "url": "https://www.bbc.com/"
+        }
+      ]
     }
   ]
 }
