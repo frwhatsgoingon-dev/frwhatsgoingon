@@ -1,4 +1,6 @@
 name: Daily Trending Topics
+permissions:
+  contents: write
 
 on:
   schedule:
