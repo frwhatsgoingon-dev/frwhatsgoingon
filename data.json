@@ -1,50 +1,64 @@
 {
-  "topics": [
-       {
-      "slug": "us-israel-iran-war",
-      "title": "U.S., Israel, and Iran: what’s happening in the Middle East",
-      "summary": "Tensions between the United States, Israel, and Iran have escalated with military strikes, drone attacks, and warnings from governments across the region. Israel and the U.S. say their actions are aimed at limiting Iranian military threats, while Iran says it is responding to aggression. Many countries are urging diplomacy to prevent a wider regional war.",
-      "why_it_matters": "A larger conflict could affect global oil prices, international security, and civilian safety across the Middle East. It could also draw in nearby countries and change U.S. foreign policy decisions.",
-      "sources": [
-        {
-          "title": "Search: US Israel Iran conflict",
-          "url": "https://www.google.com/search?q=US+Israel+Iran+conflict"
-        }
-      ]
+  "slug": "us-israel-iran-war-day-five",
+  "title": "U.S.–Israel war with Iran enters fifth day",
+  "summary": "The conflict between the United States, Israel, and Iran has escalated rapidly. A U.S. submarine sank an Iranian warship near Sri Lanka while Iran launched missiles and drones toward regional targets. Fighting is spreading across the Middle East, raising fears of a wider regional war.",
+  "why_it_matters": "The conflict could disrupt global energy supplies, shipping routes in the Persian Gulf, and international security. It also raises concerns about civilian casualties and the possibility of more countries getting involved.",
+  "sources": [
+    {
+      "title": "Reuters: U.S. sinks Iranian warship as conflict widens",
+      "url": "https://www.reuters.com/world/middle-east/us-assault-iran-ahead-schedule-says-us-middle-east-commander-2026-03-04/"
     },
     {
-      "slug": "gulf-countries-role",
-      "title": "What Gulf countries are doing during the conflict",
-      "summary": "Countries like Saudi Arabia, Qatar, the United Arab Emirates, Kuwait, Bahrain, and Oman are closely watching the conflict between Iran, Israel, and the United States. Many are trying to avoid being pulled directly into the fighting while protecting their security and economic interests.",
-      "why_it_matters": "The Gulf region controls key shipping routes and energy supplies. Decisions by these governments could influence whether tensions escalate or move toward diplomacy.",
-      "sources": [
-        {
-          "title": "Search: Gulf countries response Iran Israel conflict",
-          "url": "https://www.google.com/search?q=Gulf+countries+response+Iran+Israel+conflict"
-        }
-      ]
-    },
+      "title": "Guardian: Israel launches new wave of strikes as war escalates",
+      "url": "https://www.theguardian.com/world/2026/mar/04/us-israel-iran-war-update-latest-news-day-five"
+    }
+  ]
+},
+{
+  "slug": "global-response-iran-war",
+  "title": "World leaders split on how to respond to the Iran war",
+  "summary": "Countries across Europe and the Middle East are divided on how to respond to the conflict between Iran, Israel, and the United States. Some governments support Israel’s efforts to weaken Iran’s military capabilities, while others warn the strikes could violate international law or risk a wider war.",
+  "why_it_matters": "International support or opposition could determine whether the conflict escalates further or moves toward diplomacy.",
+  "sources": [
     {
-      "slug": "donald-trump-news",
-      "title": "Donald Trump news and policy decisions",
-      "summary": "President Donald Trump continues to shape U.S. policy through decisions on foreign conflicts, immigration, and economic issues. Supporters say his policies prioritize strength and national interests, while critics argue some decisions increase political division or global tension.",
-      "why_it_matters": "Presidential decisions influence international relations, economic policy, and domestic politics in the United States.",
-      "sources": [
-        {
-          "title": "Search: Donald Trump news",
-          "url": "https://www.google.com/search?q=Donald+Trump+news"
-        }
-      ]
-    },
+      "title": "Al Jazeera: Europe divided on response to U.S.–Israel strikes",
+      "url": "https://www.aljazeera.com/news/2026/3/4/amid-middle-east-crisis-europe-fumbles-towards-mutual-defence"
+    }
+  ]
+},
+{
+  "slug": "congress-war-powers-iran",
+  "title": "Congress debates whether Trump can continue the Iran war",
+  "summary": "Members of Congress are debating whether President Trump has the authority to continue military strikes against Iran without formal approval from lawmakers. Some Republicans support the operation as necessary for national security, while many Democrats argue Congress must authorize any extended war.",
+  "why_it_matters": "The decision could determine how long the United States remains involved in the conflict and how much power the president has to launch military action.",
+  "sources": [
     {
-      "slug": "republicans-vs-democrats",
-      "title": "Republicans vs Democrats: major political debates",
-      "summary": "Republicans and Democrats continue to debate issues like the economy, immigration, healthcare, and foreign policy. Lawmakers from both parties present different approaches to solving national problems and responding to international conflicts.",
-      "why_it_matters": "These debates shape laws, government spending, and how the United States responds to global challenges.",
-      "sources": [
-        {
-          "title": "Search: Republicans Democrats political debate",
-          "url": "https://www.google.com/search?q=Republicans+Democrats+political+debate"
-        }
-      ]
-    },
+      "title": "Reuters: Congress considers war powers resolutions on Iran",
+      "url": "https://www.reuters.com/world/us/trumps-national-security-team-comes-convince-congress-back-iran-war-2026-03-03/"
+    }
+  ]
+},
+{
+  "slug": "trump-iran-war-politics",
+  "title": "Iran conflict reshapes U.S. politics and Trump’s support",
+  "summary": "The war with Iran is becoming a major political issue in the United States. Supporters say the strikes show strength against Iran’s military and nuclear ambitions, while critics worry the conflict could spiral into a long and costly war.",
+  "why_it_matters": "Public opinion about the war could affect elections, U.S. foreign policy, and how Congress responds to future military actions.",
+  "sources": [
+    {
+      "title": "Reuters: Iran crisis tests Trump’s political support",
+      "url": "https://wtvbam.com/2026/03/04/iran-crisis-tests-trump-standing-with-young-men-who-helped-power-2024-win/"
+    }
+  ]
+},
+{
+  "slug": "us-midterm-primaries-2026",
+  "title": "First 2026 midterm primaries reveal political trends",
+  "summary": "The first primaries of the 2026 U.S. midterm election season are beginning. Early results are giving clues about which issues are motivating voters and which candidates may shape the balance of power in Congress.",
+  "why_it_matters": "The midterm elections will determine whether Republicans or Democrats control the House and Senate, affecting future laws, budgets, and investigations.",
+  "sources": [
+    {
+      "title": "Reuters: Key takeaways from first 2026 midterm primaries",
+      "url": "https://www.reuters.com/world/us/takeaways-first-primaries-2026-us-midterm-elections-2026-03-04/"
+    }
+  ]
+}
