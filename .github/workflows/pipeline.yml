@@ -22,7 +22,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline
-        run: python scripts/run_pipeline.py
+        run: python app/scripts/run_pipeline.py
 
       - name: Commit updated data
         run: |
