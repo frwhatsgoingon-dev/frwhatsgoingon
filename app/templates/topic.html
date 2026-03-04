@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="card">
+  <h2 style="margin-top:0">{{ topic.title }}</h2>
+
+  <h3>Summary</h3>
+  <p>{{ topic.summary }}</p>
+
+  <h3>Why it matters</h3>
+  <p>{{ topic.why_it_matters }}</p>
+</div>
+
+<div class="card">
+  <h3>Sources</h3>
+  <ul>
+    {% for s in topic.sources %}
+      <li><a href="{{ s.url }}" target="_blank" rel="noopener">{{ s.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+{% endblock %}
