@@ -4,7 +4,6 @@ from fastapi.templating import Jinja2Templates
 
 app = FastAPI()
 
-# IMPORTANT: because your templates are inside the app folder:
 templates = Jinja2Templates(directory="app/templates")
 
 @app.get("/", response_class=HTMLResponse)
