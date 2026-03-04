@@ -6,7 +6,10 @@
       "summary": "frwhatsgoingon is a student-friendly site that explains current events in simple language and links to real sources.",
       "why_it_matters": "You can use it to understand breaking news and get sources for schoolwork.",
       "sources": [
-        {"title": "Example source (replace later)", "url": "https://www.bbc.com/"}
+        {
+          "title": "Example source (replace later)",
+          "url": "https://www.bbc.com/"
+        }
       ]
     }
   ]
