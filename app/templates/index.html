@@ -1,12 +1,24 @@
 {% extends "base.html" %}
-
 {% block content %}
 
 <div class="card">
-<h2>Welcome</h2>
-
-<p>This site explains current events for students using simple language and real sources.</p>
-
+  <h2>Today’s explainers</h2>
+  <p>Tap a topic to get a student-friendly explainer with sources.</p>
 </div>
+
+{% if topics and topics|length > 0 %}
+  {% for t in topics %}
+    <div class="card">
+      <h3 style="margin-top:0">
+        <a href="/t/{{ t.slug }}">{{ t.title }}</a>
+      </h3>
+      <p style="margin-bottom:0">{{ t.summary }}</p>
+    </div>
+  {% endfor %}
+{% else %}
+  <div class="card">
+    <p>No topics yet. (Next step: we’ll automate this.)</p>
+  </div>
+{% endif %}
 
 {% endblock %}
