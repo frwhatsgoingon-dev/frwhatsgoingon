@@ -1,6 +1,134 @@
 {
   "topics": [
     {
+      "slug": "inflation-and-prices",
+      "title": "Inflation and prices",
+      "summary": "Sources collected. (Next: we’ll add student-friendly summaries.)",
+      "why_it_matters": "Use the sources below to research what’s happening and understand the context.",
+      "sources": [
+        {
+          "title": "البنك المركزي المصري يوضح أسباب تراجع التضخم خلال يناير 2026 (shorouknews.com)",
+          "url": "https://www.shorouknews.com/news/view.aspx?cdate=19022026&id=bddbf3bb-3833-40bd-9c60-f62a9f5de449"
+        },
+        {
+          "title": "Банк России повысил прогноз по инфляции на 2026 год до 4 , 5 - 5 , 5 %  (interfax.ru)",
+          "url": "https://www.interfax.ru/business/1072629"
+        },
+        {
+          "title": "Maďarská inflácia sa spomalila na najnižšiu úroveň za takmer 8 rokov (teraz.sk)",
+          "url": "https://www.teraz.sk/ekonomika/madarska-inflacia-sa-spomalila-na-naj/940509-clanok.html"
+        },
+        {
+          "title": "UK inflation : Latest figures set to be announced (bbc.co.uk)",
+          "url": "https://www.bbc.co.uk/news/live/cg4gzr56wd2t"
+        },
+        {
+          "title": "Annual Inflation Slowed In January , Falling To Lowest Level In 9 Months (wjdx.iheart.com)",
+          "url": "https://wjdx.iheart.com/content/2026-02-13-annual-inflation-slowed-in-january-falling-to-lowest-level-in-9-months/"
+        }
+      ]
+    },
+    {
+      "slug": "nasa-mission",
+      "title": "NASA mission",
+      "summary": "Sources collected. (Next: we’ll add student-friendly summaries.)",
+      "why_it_matters": "Use the sources below to research what’s happening and understand the context.",
+      "sources": [
+        {
+          "title": "Search: NASA mission",
+          "url": "https://www.google.com/search?q=NASA+mission"
+        }
+      ]
+    },
+    {
+      "slug": "supreme-court",
+      "title": "Supreme Court",
+      "summary": "Sources collected. (Next: we’ll add student-friendly summaries.)",
+      "why_it_matters": "Use the sources below to research what’s happening and understand the context.",
+      "sources": [
+        {
+          "title": "Search: Supreme Court",
+          "url": "https://www.google.com/search?q=Supreme+Court"
+        }
+      ]
+    },
+    {
+      "slug": "nfl-trade-news",
+      "title": "NFL trade news",
+      "summary": "Sources collected. (Next: we’ll add student-friendly summaries.)",
+      "why_it_matters": "Use the sources below to research what’s happening and understand the context.",
+      "sources": [
+        {
+          "title": "Search: NFL trade news",
+          "url": "https://www.google.com/search?q=NFL+trade+news"
+        }
+      ]
+    },
+    {
+      "slug": "taylor-swift-tour",
+      "title": "Taylor Swift tour",
+      "summary": "Sources collected. (Next: we’ll add student-friendly summaries.)",
+      "why_it_matters": "Use the sources below to research what’s happening and understand the context.",
+      "sources": [
+        {
+          "title": "Search: Taylor Swift tour",
+          "url": "https://www.google.com/search?q=Taylor+Swift+tour"
+        }
+      ]
+    },
+    {
+      "slug": "ukraine-russia-updates",
+      "title": "Ukraine Russia updates",
+      "summary": "Sources collected. (Next: we’ll add student-friendly summaries.)",
+      "why_it_matters": "Use the sources below to research what’s happening and understand the context.",
+      "sources": [
+        {
+          "title": "Search: Ukraine Russia updates",
+          "url": "https://www.google.com/search?q=Ukraine+Russia+updates"
+        }
+      ]
+    },
+    {
+      "slug": "israel-gaza-latest",
+      "title": "Israel Gaza latest",
+      "summary": "Sources collected. (Next: we’ll add student-friendly summaries.)",
+      "why_it_matters": "Use the sources below to research what’s happening and understand the context.",
+      "sources": [
+        {
+          "title": "গাজায় নতুন হামলায় ৯ ফিলিস্তিনিকে হত্যা করেছে ইসরায়েলি বাহিনী | (bd-pratidin.com)",
+          "url": "https://www.bd-pratidin.com/international-news/2026/02/10/1215306"
+        },
+        {
+          "title": "خبير سياسي : إسرائيل تسعى للاحتفاظ بنحو 60 % من قطاع غزة كمناطق ارتكاز عسكرية (elwatannews.com)",
+          "url": "https://www.elwatannews.com/news/details/8202954"
+        },
+        {
+          "title": "গাজার তাঁবুতে ইসরায়েলি বিমান হামলায় নিহত ২ ফিলিস্তিনি (dailyinqilab.com)",
+          "url": "https://dailyinqilab.com/international/news/850022"
+        },
+        {
+          "title": "গাজায় একদিনে শিশুসহ ৩১ ফিলিস্তিনি নিহত - 24 Live Newspaper (bangla.24livenewspaper.com)",
+          "url": "https://www.bangla.24livenewspaper.com/post-148927"
+        },
+        {
+          "title": "রাতভর ইসরায়েলি হামলায় তিন ফিলিস্তিনি নিহত | | বাংলাদেশ প্রতিদিন (bd-pratidin.com)",
+          "url": "https://www.bd-pratidin.com/international-news/2026/01/11/1203272"
+        }
+      ]
+    },
+    {
+      "slug": "us-election-news",
+      "title": "US election news",
+      "summary": "Sources collected. (Next: we’ll add student-friendly summaries.)",
+      "why_it_matters": "Use the sources below to research what’s happening and understand the context.",
+      "sources": [
+        {
+          "title": "Search: US election news",
+          "url": "https://www.google.com/search?q=US+election+news"
+        }
+      ]
+    },
+    {
       "slug": "us-israel-iran-war-day-five",
       "title": "U.S.–Israel war with Iran enters fifth day",
       "summary": "Fighting and retaliatory strikes involving Iran, Israel, and the United States are increasing regional tension. Leaders are under pressure to prevent escalation while addressing security threats and protecting civilians.",
@@ -12,9 +140,18 @@
       ],
       "why_it_matters": "If the conflict expands, it can increase civilian harm, disrupt trade and energy markets, raise global fuel prices, and pull more countries into direct confrontation. It also shapes U.S. foreign policy and domestic political debate.",
       "key_terms": [
-        { "term": "Escalation", "definition": "When a conflict grows more intense or spreads to more places or groups." },
-        { "term": "Retaliation", "definition": "A response meant to strike back after an attack." },
-        { "term": "Deterrence", "definition": "Trying to prevent attacks by showing you can respond forcefully." }
+        {
+          "term": "Escalation",
+          "definition": "When a conflict grows more intense or spreads to more places or groups."
+        },
+        {
+          "term": "Retaliation",
+          "definition": "A response meant to strike back after an attack."
+        },
+        {
+          "term": "Deterrence",
+          "definition": "Trying to prevent attacks by showing you can respond forcefully."
+        }
       ],
       "big_questions": [
         "Will the conflict widen to include more countries or major regional infrastructure?",
@@ -40,9 +177,18 @@
       ],
       "why_it_matters": "The Gulf region is central to global energy and trade. If shipping routes or oil and gas infrastructure are threatened, prices can rise worldwide and supply chains can be disrupted.",
       "key_terms": [
-        { "term": "Persian Gulf shipping routes", "definition": "Major sea lanes used to move oil, gas, and goods globally." },
-        { "term": "Regional stability", "definition": "How safe and predictable politics and security are across neighboring countries." },
-        { "term": "Air defense", "definition": "Systems designed to stop missiles, drones, or aircraft." }
+        {
+          "term": "Persian Gulf shipping routes",
+          "definition": "Major sea lanes used to move oil, gas, and goods globally."
+        },
+        {
+          "term": "Regional stability",
+          "definition": "How safe and predictable politics and security are across neighboring countries."
+        },
+        {
+          "term": "Air defense",
+          "definition": "Systems designed to stop missiles, drones, or aircraft."
+        }
       ],
       "big_questions": [
         "Will Gulf countries act as mediators, or will they be pulled into the conflict indirectly?",
@@ -68,9 +214,18 @@
       ],
       "why_it_matters": "This can determine how long the U.S. stays involved, what goals the U.S. sets, and what limits exist on military action. It also affects checks and balances between Congress and the president.",
       "key_terms": [
-        { "term": "Authorization for Use of Military Force (AUMF)", "definition": "A law Congress can pass to formally approve military action." },
-        { "term": "War powers", "definition": "The legal rules for who can start or expand military action." },
-        { "term": "Oversight", "definition": "How Congress monitors and challenges executive branch actions." }
+        {
+          "term": "Authorization for Use of Military Force (AUMF)",
+          "definition": "A law Congress can pass to formally approve military action."
+        },
+        {
+          "term": "War powers",
+          "definition": "The legal rules for who can start or expand military action."
+        },
+        {
+          "term": "Oversight",
+          "definition": "How Congress monitors and challenges executive branch actions."
+        }
       ],
       "big_questions": [
         "Will Congress pass new limits or authorizations?",
@@ -96,9 +251,18 @@
       ],
       "why_it_matters": "Foreign policy can affect elections, the economy (including prices), and international alliances. Major military decisions often become long-term political turning points.",
       "key_terms": [
-        { "term": "Public opinion", "definition": "What voters think about an issue, measured through polls and reactions." },
-        { "term": "Alliance", "definition": "A partnership between countries for security or shared goals." },
-        { "term": "Exit strategy", "definition": "A plan for how to end involvement without making things worse." }
+        {
+          "term": "Public opinion",
+          "definition": "What voters think about an issue, measured through polls and reactions."
+        },
+        {
+          "term": "Alliance",
+          "definition": "A partnership between countries for security or shared goals."
+        },
+        {
+          "term": "Exit strategy",
+          "definition": "A plan for how to end involvement without making things worse."
+        }
       ],
       "big_questions": [
         "Will the conflict raise or lower support for the administration?",
@@ -124,9 +288,18 @@
       ],
       "why_it_matters": "The 2026 midterms will determine control of Congress, which affects budgets, investigations, laws, and whether the president’s agenda is blocked or supported.",
       "key_terms": [
-        { "term": "Primary", "definition": "An election where a party chooses its candidate for the general election." },
-        { "term": "Turnout", "definition": "How many people actually vote." },
-        { "term": "Swing voters", "definition": "Voters who can support either party depending on the issue or candidate." }
+        {
+          "term": "Primary",
+          "definition": "An election where a party chooses its candidate for the general election."
+        },
+        {
+          "term": "Turnout",
+          "definition": "How many people actually vote."
+        },
+        {
+          "term": "Swing voters",
+          "definition": "Voters who can support either party depending on the issue or candidate."
+        }
       ],
       "big_questions": [
         "Which issues are driving voters the most right now?",
