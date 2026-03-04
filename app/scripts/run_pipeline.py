@@ -10,8 +10,8 @@ DATA_PATH = Path("data.json")
 
 GOOGLE_TRENDS_RSS_US = "https://trends.google.com/trends/trendingsearches/daily/rss?geo=US"
 
-MAX_TOPICS_PER_RUN = 8          # how many new topics per day
-MAX_SOURCES_PER_TOPIC = 5       # how many links per topic
+MAX_TOPICS_PER_RUN = 8
+MAX_SOURCES_PER_TOPIC = 5
 
 
 def slugify(text: str) -> str:
@@ -29,7 +29,6 @@ def load_data():
 
 
 def save_data_atomic(data):
-    # Write to a temp file and replace data.json (prevents corruption)
     tmp = DATA_PATH.with_suffix(".tmp")
     tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     tmp.replace(DATA_PATH)
@@ -42,11 +41,23 @@ def fetch_trending_titles():
         title = (entry.get("title") or "").strip()
         if title:
             titles.append(title)
+
+    # Fallback if Trends is empty for any reason
+    if not titles:
+        titles = [
+            "US election news",
+            "Israel Gaza latest",
+            "Ukraine Russia updates",
+            "Taylor Swift tour",
+            "NFL trade news",
+            "Supreme Court",
+            "NASA mission",
+            "Inflation and prices"
+        ]
     return titles
 
 
 def fetch_sources_from_gdelt(topic: str, max_results: int = 5):
-    # Free news search API: returns a list of articles with URLs + titles
     q = quote_plus(topic)
     url = (
         "https://api.gdeltproject.org/api/v2/doc/doc"
@@ -63,12 +74,7 @@ def fetch_sources_from_gdelt(topic: str, max_results: int = 5):
             continue
         title = art.get("title") or topic
         domain = urlparse(u).netloc.replace("www.", "")
-        sources.append(
-            {
-                "title": f"{title} ({domain})",
-                "url": u,
-            }
-        )
+        sources.append({"title": f"{title} ({domain})", "url": u})
 
     # de-dupe by URL
     seen = set()
@@ -84,10 +90,16 @@ def fetch_sources_from_gdelt(topic: str, max_results: int = 5):
 def add_topic(data, title: str, sources):
     slug = slugify(title)
 
-    # Don't add duplicates
     existing_slugs = {t.get("slug") for t in data.get("topics", [])}
     if slug in existing_slugs:
         return False
+
+    # If GDELT returns nothing, still add topic with a search link
+    if not sources:
+        sources = [{
+            "title": f"Search: {title}",
+            "url": f"https://www.google.com/search?q={quote_plus(title)}"
+        }]
 
     topic = {
         "slug": slug,
@@ -97,7 +109,6 @@ def add_topic(data, title: str, sources):
         "sources": sources[:MAX_SOURCES_PER_TOPIC],
     }
 
-    # Add newest topics to the top
     data["topics"] = [topic] + data.get("topics", [])
     return True
 
@@ -106,6 +117,8 @@ def main():
     data = load_data()
 
     trending = fetch_trending_titles()
+    print(f"Got {len(trending)} trending titles.")
+
     added_count = 0
 
     for title in trending:
@@ -114,17 +127,20 @@ def main():
 
         try:
             sources = fetch_sources_from_gdelt(title, max_results=MAX_SOURCES_PER_TOPIC)
-            if len(sources) < 2:
-                # skip topics with too few sources
-                continue
-
             added = add_topic(data, title, sources)
             if added:
                 added_count += 1
+                print(f"Added: {title} (sources: {len(sources)})")
+            else:
+                print(f"Skipped duplicate: {title}")
 
         except Exception as e:
-            # Don’t crash the whole run if one topic fails
-            print(f"Skipping topic due to error: {title} -> {e}")
+            # Even if GDELT fails, still add topic with a search link
+            print(f"GDELT error for '{title}': {e}")
+            added = add_topic(data, title, sources=[])
+            if added:
+                added_count += 1
+                print(f"Added with fallback search link: {title}")
 
     save_data_atomic(data)
     print(f"Done. Added {added_count} new topics.")
